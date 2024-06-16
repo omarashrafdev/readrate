@@ -4,8 +4,22 @@
   "description": "ReadRate is a RESTful API for managing book reviews. This API allows users to perform CRUD operations on books and reviews, with features like user authentication and authorization, pagination, filtering, and sorting.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js",
+    "dev": "nodemon --legacy-watch --exitcrash index.js",
+    "format": "npx prettier --write ."
   },
   "author": "omarashrafdev",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.5.0",
+    "prettier": "^3.1.0"
+  }
 }
