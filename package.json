@@ -1,0 +1,11 @@
+{
+  "name": "readrate",
+  "version": "1.0.0",
+  "description": "ReadRate is a RESTful API for managing book reviews. This API allows users to perform CRUD operations on books and reviews, with features like user authentication and authorization, pagination, filtering, and sorting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "omarashrafdev",
+  "license": "ISC"
+}
